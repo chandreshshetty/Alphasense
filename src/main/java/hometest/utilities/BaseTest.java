@@ -28,12 +28,15 @@ public class BaseTest {
 
 	public static void initialization() {
 		Logger logger = Logger.getLogger(Log.class.getName());
-		String parameter = System.getProperty("suiteParam");
+		//takes input from user at runtime to execute testcase on required environment
+		String parameter = System.getProperty("suiteParam").toLowerCase();
 		logger.info("Parameter found : " + parameter);
+		//fetches browser parameter from config.properties file
 		String browserName = prop.getProperty("browser");
 		logger.info("Browser invoked : " + browserName);
 		if (browserName.equals("chrome")) {
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+			//used chromeoptions to customize download folder of chrome to specified folder
 			chromePrefs.put("profile.default_content_settings.popups", 0);
 			chromePrefs.put("download.default_directory", System.getProperty("user.dir") + "/downloadedInvoice");
 			ChromeOptions options = new ChromeOptions();

@@ -43,6 +43,7 @@ public class SignUpTest extends TestUtils {
 	****************************************************************************************************/
 	@Test(description = "verify login by creating new account", groups = { "SignUpTestCase.signIn" })
 	public void createAccountTest() throws Exception {
+		//it will 4 character string randomly
 		String name = randomText(4);
 		String email = name + "@automation.com";
 		String pwd = randomText(6) + "123";
@@ -50,10 +51,12 @@ public class SignUpTest extends TestUtils {
 		signup.enterPersonalInfoAndRegister(name, pwd);
 		Assert.assertEquals(name + " " + name, signup.verifyUserNaviagtaionToMyAccount(),
 				"User Name not displyed in the header after Registration");
-		signup = myAccount.userSignOut();
+		logger.info("Successfully registered with new user");
+		myAccount.userSignOut();
 		signup.userSignin(email, pwd);
 		Assert.assertEquals(name + " " + name, signup.verifyUserNaviagtaionToMyAccount(),
 				"User Name not displyed in the header after Registration");
+		logger.info("Successfully logged into the system with the registered user");
 	}
 
 	@AfterClass

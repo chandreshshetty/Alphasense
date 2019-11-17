@@ -25,6 +25,9 @@ public class OrderDetailsPage extends TestUtils{
 	@FindBy(xpath="//tr[contains(@class,'first_item')]//td[@class='history_invoice']")
 	WebElement invoiceDownload;
 	
+	@FindBy(xpath="//tr[contains(@class,'first_item')]//td[@class='history_invoiceoo']")
+	WebElement invoiceDownloadFail;
+	
 	/*
 	 * Method used to navigate to order details page
 	 */
@@ -43,6 +46,16 @@ public class OrderDetailsPage extends TestUtils{
 		logger.info("Waiting for invoice to diplay in order history page");
 		waitForElementToDisplay(invoiceDownload);
 		invoiceDownload.click();
+		logger.info("Successfully clicked on invoice in order history page");
+	}
+	
+	/*
+	 * Method added to fail test case
+	 */
+	public void downloadInvoiceFail() {
+		logger.info("Waiting for invoice to diplay in order history page");
+		waitForElementToDisplay(invoiceDownloadFail);
+		invoiceDownloadFail.click();
 		logger.info("Successfully clicked on invoice in order history page");
 	}
 	
