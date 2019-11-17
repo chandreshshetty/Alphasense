@@ -1,5 +1,6 @@
 package hometest.utilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.Properties;
@@ -42,6 +43,10 @@ public class BaseTest {
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 			// used chromeoptions to customize download folder of chrome to specified folder
 			chromePrefs.put("profile.default_content_settings.popups", 0);
+			File directory = new File(System.getProperty("user.dir") + "/downloadedInvoice");
+			if (!directory.exists()) {
+				directory.mkdir();
+			}
 			chromePrefs.put("download.default_directory", System.getProperty("user.dir") + "/downloadedInvoice");
 			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("prefs", chromePrefs);
