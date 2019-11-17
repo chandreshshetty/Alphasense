@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 163.446 s <<< FAILURE! - in TestSuite
+downloadOrderInvoice(hometest.testcases.OrderDetailsTest)  Time elapsed: 12.748 s  <<< FAILURE!
+java.lang.AssertionError: Downloaded document is not found did not expect to find [true] but found [false]
+	at hometest.testcases.OrderDetailsTest.downloadOrderInvoice(OrderDetailsTest.java:45)
+

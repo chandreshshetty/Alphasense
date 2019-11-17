@@ -1,0 +1,11 @@
+hometest\utilities\TestUtils.class
+hometest\pages\OrderDetailsPage.class
+hometest\pages\CheckOutPage.class
+hometest\pages\SignUpPage.class
+hometest\testcases\AddToCartTest.class
+hometest\utilities\BaseTest.class
+hometest\pages\MyAccountPage.class
+hometest\testcases\CheckOutTest.class
+hometest\testcases\OrderDetailsTest.class
+hometest\pages\AddToCartPage.class
+hometest\testcases\SignUpTest.class

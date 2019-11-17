@@ -1,0 +1,101 @@
+2019-11-17 17:18:05,640  INFO [main] Log:32 - Parameter found : prod
+2019-11-17 17:18:05,648  INFO [main] Log:34 - Browser invoked : chrome
+2019-11-17 17:18:25,406  INFO [main] Log:49 - Browser window maximised
+2019-11-17 17:18:33,630  INFO [main] Log:56 - Navigated to prod environment
+2019-11-17 17:18:33,795  INFO [main] Log:66 - *********started with Test SignUpTest.createAccountTest()[pri:0, instance:hometest.testcases.SignUpTest@3701eaf6] **********
+2019-11-17 17:18:33,800 DEBUG [main] Log:81 - waiting for SignIn button to display
+2019-11-17 17:18:34,260 DEBUG [main] Log:83 - Clicking on SignIn button
+2019-11-17 17:18:37,085  INFO [main] Log:85 - Clicked on SignIn Button
+2019-11-17 17:18:37,086 DEBUG [main] Log:86 - waiting for Create Account page to load
+2019-11-17 17:18:37,154  INFO [main] Log:88 - Create Account page loaded
+2019-11-17 17:18:37,341  INFO [main] Log:90 - entered email id mjYQ@automation.com in the CreateAccount Page
+2019-11-17 17:18:37,578  INFO [main] Log:92 - Clicked on Create Account Button
+2019-11-17 17:18:39,836  INFO [main] Log:107 - Entered FirstName in registration page
+2019-11-17 17:18:40,004  INFO [main] Log:109 - Entered lastname in registration page
+2019-11-17 17:18:40,344  INFO [main] Log:111 - Entered password in registration page
+2019-11-17 17:18:40,513  INFO [main] Log:113 - Entered address firstName in registration page
+2019-11-17 17:18:40,669  INFO [main] Log:115 - Entered address lastname in registration page
+2019-11-17 17:18:40,903  INFO [main] Log:117 - Entered address in registration page
+2019-11-17 17:18:41,079  INFO [main] Log:119 - Entered city in registration page
+2019-11-17 17:18:41,300  INFO [main] Log:121 - Selected Alabama state from the dropdown list in registration page
+2019-11-17 17:18:41,463  INFO [main] Log:123 - Entered postalcode in registration page
+2019-11-17 17:18:41,673  INFO [main] Log:125 - Entered mobile number in registration page
+2019-11-17 17:18:41,871  INFO [main] Log:127 - Entered alias address in registration page
+2019-11-17 17:18:44,679  INFO [main] Log:129 - Clicked on register button in the registration page
+2019-11-17 17:18:44,682 DEBUG [main] Log:138 - Waiting for username to be display in the my account page
+2019-11-17 17:18:44,805  INFO [main] Log:31 - Waiting for Signout page to be displayed
+2019-11-17 17:18:48,347  INFO [main] Log:34 - Clicked on Signout button in the My Account page
+2019-11-17 17:18:48,388  INFO [main] Log:36 - User successfully logged out of the system
+2019-11-17 17:18:48,391 DEBUG [main] Log:149 - Waiting for SignIn button to be display in the signIn page
+2019-11-17 17:18:51,496  INFO [main] Log:152 - Clicked on SignIn button in the signIn page
+2019-11-17 17:18:51,496 DEBUG [main] Log:153 - Entering username and password
+2019-11-17 17:18:53,983  INFO [main] Log:157 - Clicked on Submit SignIn button in the signIn page
+2019-11-17 17:18:53,985 DEBUG [main] Log:138 - Waiting for username to be display in the my account page
+2019-11-17 17:18:55,554  INFO [main] Log:32 - Parameter found : prod
+2019-11-17 17:18:55,555  INFO [main] Log:34 - Browser invoked : chrome
+2019-11-17 17:19:05,277  INFO [main] Log:49 - Browser window maximised
+2019-11-17 17:19:13,581  INFO [main] Log:56 - Navigated to prod environment
+2019-11-17 17:19:13,603  INFO [main] Log:66 - *********started with Test AddToCartTest.verifyProductListing()[pri:0, instance:hometest.testcases.AddToCartTest@627551fb] **********
+2019-11-17 17:19:13,605 DEBUG [main] Log:149 - Waiting for SignIn button to be display in the signIn page
+2019-11-17 17:19:16,823  INFO [main] Log:152 - Clicked on SignIn button in the signIn page
+2019-11-17 17:19:16,824 DEBUG [main] Log:153 - Entering username and password
+2019-11-17 17:19:19,144  INFO [main] Log:157 - Clicked on Submit SignIn button in the signIn page
+2019-11-17 17:19:19,146  INFO [main] Log:41 - Waiting for search box to display
+2019-11-17 17:19:19,207  INFO [main] Log:43 - Searching for keyword Dress
+2019-11-17 17:19:21,772  INFO [main] Log:46 - Clicked on search button after entering the keyword
+2019-11-17 17:19:21,774 DEBUG [main] Log:41 - Waiting for product page to be loaded aftre search
+2019-11-17 17:19:21,899 DEBUG [main] Log:46 - Validating between product count and listed product
+2019-11-17 17:19:21,899  INFO [main] Log:49 - Successfully validated between product count and listed product
+2019-11-17 17:19:21,904 DEBUG [main] Log:57 - Validating product listed based on product serached
+2019-11-17 17:19:22,255  INFO [main] Log:63 - Successfully validated product listed based on product serached
+2019-11-17 17:19:22,255  INFO [main] Log:31 - Waiting for Signout page to be displayed
+2019-11-17 17:19:25,106  INFO [main] Log:34 - Clicked on Signout button in the My Account page
+2019-11-17 17:19:25,167  INFO [main] Log:36 - User successfully logged out of the system
+2019-11-17 17:19:26,334  INFO [main] Log:32 - Parameter found : prod
+2019-11-17 17:19:26,335  INFO [main] Log:34 - Browser invoked : chrome
+2019-11-17 17:19:35,951  INFO [main] Log:49 - Browser window maximised
+2019-11-17 17:19:43,371  INFO [main] Log:56 - Navigated to prod environment
+2019-11-17 17:19:43,379  INFO [main] Log:66 - *********started with Test OrderDetailsTest.downloadOrderInvoice()[pri:0, instance:hometest.testcases.OrderDetailsTest@2b552920] **********
+2019-11-17 17:19:43,379 DEBUG [main] Log:149 - Waiting for SignIn button to be display in the signIn page
+2019-11-17 17:19:46,948  INFO [main] Log:152 - Clicked on SignIn button in the signIn page
+2019-11-17 17:19:46,948 DEBUG [main] Log:153 - Entering username and password
+2019-11-17 17:19:49,948  INFO [main] Log:157 - Clicked on Submit SignIn button in the signIn page
+2019-11-17 17:19:49,950  INFO [main] Log:32 - Waiting for order history page to load
+2019-11-17 17:19:52,294  INFO [main] Log:35 - Successfully clicked on order history button
+2019-11-17 17:19:52,296  INFO [main] Log:43 - Waiting for invoice to diplay in order history page
+2019-11-17 17:19:52,518  INFO [main] Log:46 - Successfully clicked on invoice in order history page
+2019-11-17 17:19:56,871  INFO [main] Log:32 - Parameter found : prod
+2019-11-17 17:19:56,872  INFO [main] Log:34 - Browser invoked : chrome
+2019-11-17 17:20:06,643  INFO [main] Log:49 - Browser window maximised
+2019-11-17 17:20:13,257  INFO [main] Log:56 - Navigated to prod environment
+2019-11-17 17:20:13,264  INFO [main] Log:66 - *********started with Test CheckOutTest.placeOrder()[pri:0, instance:hometest.testcases.CheckOutTest@2758fe70] **********
+2019-11-17 17:20:13,265 DEBUG [main] Log:149 - Waiting for SignIn button to be display in the signIn page
+2019-11-17 17:20:15,945  INFO [main] Log:152 - Clicked on SignIn button in the signIn page
+2019-11-17 17:20:15,946 DEBUG [main] Log:153 - Entering username and password
+2019-11-17 17:20:20,463  INFO [main] Log:157 - Clicked on Submit SignIn button in the signIn page
+2019-11-17 17:20:20,464  INFO [main] Log:41 - Waiting for search box to display
+2019-11-17 17:20:20,511  INFO [main] Log:43 - Searching for keyword Dress
+2019-11-17 17:20:23,701  INFO [main] Log:46 - Clicked on search button after entering the keyword
+2019-11-17 17:20:23,703 DEBUG [main] Log:57 - Validating product listed based on product serached
+2019-11-17 17:20:24,093  INFO [main] Log:63 - Successfully validated product listed based on product serached
+2019-11-17 17:20:24,126 DEBUG [main] Log:71 - Waiting for Add To cart button
+2019-11-17 17:20:24,554  INFO [main] Log:74 - Clicked on Add To Cart button
+2019-11-17 17:20:24,555 DEBUG [main] Log:81 - Waiting for mini cart page to load after Add To Cart
+2019-11-17 17:20:25,780  INFO [main] Log:84 - Successfully validated product in the Mini cart page
+2019-11-17 17:20:28,517  INFO [main] Log:86 - Clicked on proceed to checkout button in mini cart page
+2019-11-17 17:20:28,518  INFO [main] Log:50 - Waiting for Summary page to load
+2019-11-17 17:20:28,602  INFO [main] Log:53 - Successfully validated navigation to summary page
+2019-11-17 17:20:31,291  INFO [main] Log:55 - Clicked on proceed to checkout button in the summary page
+2019-11-17 17:20:31,291  INFO [main] Log:59 - Waiting for Addresss page to load
+2019-11-17 17:20:31,371  INFO [main] Log:62 - Successfully validated navigation to address page
+2019-11-17 17:20:33,617  INFO [main] Log:64 - Clicked on proceed to checkout button in the address page
+2019-11-17 17:20:33,617  INFO [main] Log:68 - Waiting for Shipping page to load
+2019-11-17 17:20:33,709  INFO [main] Log:71 - Successfully validated navigation to shipping page
+2019-11-17 17:20:33,903  INFO [main] Log:73 - Clicked on Terms and Service button in the shipping page
+2019-11-17 17:20:35,784  INFO [main] Log:75 - Clicked on proceed to checkout button in the shipping page
+2019-11-17 17:20:35,784  INFO [main] Log:80 - Waiting for Payment page to load
+2019-11-17 17:20:35,874  INFO [main] Log:83 - Successfully validated navigation to payment page
+2019-11-17 17:20:37,985  INFO [main] Log:85 - Clicked on PayByCheque button in the payment page
+2019-11-17 17:20:37,985  INFO [main] Log:86 - Waiting for confirm order page to load
+2019-11-17 17:20:42,590  INFO [main] Log:89 - Clicked on confirm order button in the order page
+2019-11-17 17:20:42,646  INFO [main] Log:95 - Successfully validated success message after placing order

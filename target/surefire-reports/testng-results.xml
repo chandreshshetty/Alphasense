@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="160012" started-at="2019-11-17T17:18:05 IST" finished-at="2019-11-17T17:20:45 IST">
+    <groups>
+      <group name="SignUpTestCase.signIn">
+        <method signature="SignUpTest.createAccountTest()[pri:0, instance:hometest.testcases.SignUpTest@3701eaf6]" name="createAccountTest" class="hometest.testcases.SignUpTest"/>
+      </group> <!-- SignUpTestCase.signIn -->
+    </groups>
+    <test name="Test" duration-ms="160012" started-at="2019-11-17T17:18:05 IST" finished-at="2019-11-17T17:20:45 IST">
+      <class name="hometest.testcases.OrderDetailsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hometest.testcases.OrderDetailsTest@2b552920]" name="setUp" is-config="true" duration-ms="17045" started-at="2019-11-17T17:19:26 IST" finished-at="2019-11-17T17:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="downloadOrderInvoice()[pri:0, instance:hometest.testcases.OrderDetailsTest@2b552920]" name="downloadOrderInvoice" duration-ms="12212" started-at="2019-11-17T17:19:43 IST" finished-at="2019-11-17T17:19:55 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Downloaded document is not found did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Downloaded document is not found did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at hometest.pages.OrderDetailsPage.verifyDownloadedInvoiceName(OrderDetailsPage.java:74)
+at hometest.testcases.OrderDetailsTest.downloadOrderInvoice(OrderDetailsTest.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadOrderInvoice -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hometest.testcases.OrderDetailsTest@2b552920]" name="closeBrowser" is-config="true" duration-ms="717" started-at="2019-11-17T17:19:56 IST" finished-at="2019-11-17T17:19:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hometest.testcases.OrderDetailsTest -->
+      <class name="hometest.testcases.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hometest.testcases.SignUpTest@3701eaf6]" name="setUp" is-config="true" duration-ms="28131" started-at="2019-11-17T17:18:05 IST" finished-at="2019-11-17T17:18:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest()[pri:0, instance:hometest.testcases.SignUpTest@3701eaf6]" name="createAccountTest" duration-ms="20301" started-at="2019-11-17T17:18:33 IST" description="verify login by creating new account" finished-at="2019-11-17T17:18:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hometest.testcases.SignUpTest@3701eaf6]" name="closeBrowser" is-config="true" duration-ms="730" started-at="2019-11-17T17:18:54 IST" finished-at="2019-11-17T17:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hometest.testcases.SignUpTest -->
+      <class name="hometest.testcases.CheckOutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hometest.testcases.CheckOutTest@2758fe70]" name="setUp" is-config="true" duration-ms="16392" started-at="2019-11-17T17:19:56 IST" finished-at="2019-11-17T17:20:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:hometest.testcases.CheckOutTest@2758fe70]" name="placeOrder" duration-ms="29382" started-at="2019-11-17T17:20:13 IST" finished-at="2019-11-17T17:20:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hometest.testcases.CheckOutTest@2758fe70]" name="closeBrowser" is-config="true" duration-ms="2205" started-at="2019-11-17T17:20:43 IST" finished-at="2019-11-17T17:20:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hometest.testcases.CheckOutTest -->
+      <class name="hometest.testcases.AddToCartTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hometest.testcases.AddToCartTest@627551fb]" name="setUp" is-config="true" duration-ms="18049" started-at="2019-11-17T17:18:55 IST" finished-at="2019-11-17T17:19:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductListing()[pri:0, instance:hometest.testcases.AddToCartTest@627551fb]" name="verifyProductListing" duration-ms="11567" started-at="2019-11-17T17:19:13 IST" finished-at="2019-11-17T17:19:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductListing -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hometest.testcases.AddToCartTest@627551fb]" name="closeBrowser" is-config="true" duration-ms="721" started-at="2019-11-17T17:19:25 IST" finished-at="2019-11-17T17:19:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hometest.testcases.AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
